@@ -1,5 +1,6 @@
 require_relative 'middleware/runtime'
 require_relative 'middleware/logger'
+require_relative 'devider'
 require_relative 'app'
 
 use Runtime
