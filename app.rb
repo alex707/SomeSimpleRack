@@ -18,7 +18,7 @@ class App
     { 'Content-Type' => 'text/plain' }
   end
 
-  def make_response(status_code, headers, body)
+  def make_response(status_code, headers = plain_headers, body)
     [status_code, headers, Array(body)]
   end
 end
