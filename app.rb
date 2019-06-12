@@ -30,8 +30,4 @@ class App
     [status_code, headers, Array(body + "\n")]
   end
   # rubocop:enable Style/OptionalArguments
-
-  def status(obj)
-    obj.valid? ? 200 : 400
-  end
 end
